@@ -2,6 +2,14 @@
     border-bottom: none;
 }
 
+.header-nav__item a {
+    display: inline-block;
+    text-decoration: none;
+    background: rgba(240, 240, 240, 0.6);
+    color: rgb(217, 198, 181);
+    font-size: 20px;
+}
+
 .register-form__content {
     margin: 0 auto;
     padding: 30px 15px;
@@ -68,7 +76,7 @@
     cursor: pointer;
 }
 
-.login__link {
+/* .login__link {
     margin-top: 20px;
     text-align: center;
-}
+} */

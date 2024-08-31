@@ -94,3 +94,7 @@ body {
     color: rgb(139, 121, 105);
 }
 
+.modal-table__row {
+    text-align: center;
+}
+

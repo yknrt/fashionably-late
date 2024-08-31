@@ -22,3 +22,5 @@ Route::middleware('auth')->group(function () {
     Route::get('/admin', [ContactController::class, 'admin']);
 });
 Route::get('/admin/search', [ContactController::class, 'search']);
+Route::delete('/admin/delete', [ContactController::class, 'destroy']);
+Route::post('/admin/export', [ContactController::class, 'downloadCsv']);

@@ -53,13 +53,20 @@ body {
 .confirm-table__name,
 .confirm-table__tel {
     display: flex;
+    text-align: center;
+    justify-content: space-around;
+    height: 50px;
+    width: 670px;
 }
 
 .confirm-table__name input,
 .confirm-table__tel input {
-    display: inline-block;
+    display: block;
     border: none;
     color: #8B7969;
+    box-sizing: border-box;
+    height: 50px;
+    width: 300px;
 }
 
 .confirm-table__row:last-child .confirm-table__header,

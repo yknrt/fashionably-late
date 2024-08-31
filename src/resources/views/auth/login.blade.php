@@ -8,10 +8,7 @@
 <nav>
     <ul class="header-nav">
         <li class="header-nav__item">
-            <a href="/register" class="header-nav__button">register</a>
-            <!-- <form>
-                <button class="header-nav__button" href="/register">register</button>
-            </form> -->
+            <a href="/register">register</a>
         </li>
     </ul>
 </nav>

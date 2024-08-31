@@ -77,7 +77,6 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--tel">
-                    <!-- pattern="\d{2,4}-?\d{2,4}-?\d{3,4}" -->
                     <input type="tel" name="tel-area-code" placeholder="080" value="{{ old('tel-area-code') }}" />
                     <span>-</span>
                     <input type="tel" name="tel-local-prefix" placeholder="1234" value="{{ old('tel-local-prefix') }}" />
@@ -133,11 +132,6 @@
                         @foreach ($categories as $category)
                             <option value="{{ $category['id'] }}" @if( old('category_id') == $category['id'] ) selected @endif>{{ $category['content'] }}</option>
                         @endforeach
-                        <!-- <option value="商品のお届けについて" @if( old('content') === '商品のお届けについて' ) selected @endif>商品のお届けについて</option>
-                        <option value="商品の交換について" @if( old('content') === '商品の交換について' ) selected @endif>商品の交換について</option>
-                        <option value="商品トラブル" @if( old('content') === '商品トラブル' ) selected @endif>商品トラブル</option>
-                        <option value="ショップへのお問い合わせ" @if( old('content') === 'ショップへのお問い合わせ' ) selected @endif>ショップへのお問い合わせ</option>
-                        <option value="その他" @if( old('content') === 'その他' ) selected @endif>その他</option> -->
                     </select>
                 </div>
                 <div class="form__error">

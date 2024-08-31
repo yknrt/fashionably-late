@@ -8,9 +8,6 @@
 <nav>
     <ul class="header-nav">
         <li class="header-nav__item">
-            <!-- <form action="/login" method="post">
-                <button class="header-nav__button" href="/login">login</button>
-            </form> -->
             <a href="/login">login</a>
         </li>
     </ul>
