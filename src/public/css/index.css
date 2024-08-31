@@ -1,0 +1,129 @@
+body {
+    background-color: #fff;
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 15px 15px;
+    max-width: 70%;
+}
+
+.contact-form__heading {
+    color: #8B7969;
+    font-size: 35px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__group-content {
+    width: 70%;
+}
+
+.form__label--item {
+    color: #8B7969;
+}
+
+.form__label--required {
+    color: #ff0000;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--name,
+.form__input--tel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__input--name input,
+.form__input--tel input {
+    background: rgb(244, 244, 244);
+    padding: 10px;
+    border: none;
+    color: #8B7969;
+    appearance: none;
+    width: 45%;
+}
+
+.form__input--name input {
+    width: 45%;
+}
+
+.form__input--tel input {
+    width: 30%;
+}
+
+.form__input--tel span {
+    display: inline-block;
+    padding: 10px;
+    color: #8B7969;
+    width: 10px;
+}
+
+.form__input--radio {
+    padding: 10px;
+    width: 100%;
+    color: #8B7969;
+    text-align: left;
+}
+
+.form__input--radio label {
+    margin-right: 20px;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 100%;
+    background: rgb(244, 244, 244);
+    border: none;
+    color: #8B7969;
+    appearance: none;
+}
+
+.form__input--select select {
+    padding: 10px;
+    width: 100%;
+    background: rgb(244, 244, 244);
+    border: none;
+    color: #8B7969;
+}
+
+.form__input--text input {
+    height: 40px;
+}
+
+.form__input--textarea textarea {
+    height: 120px;
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #8B7969;
+    color: #fff;
+    cursor: pointer;
+}
