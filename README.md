@@ -30,7 +30,9 @@
 ・MySQL 8.0.26
 
 ## ER図
-< - - - 作成したER図の画像 - - - >
+![ER図](./er.drawio.png)
 
 ## URL
-- 例) 開発環境：http://localhost/
+・ 開発環境：http://localhost/
+
+・ phpMyAdmin：http://localhost:8080
